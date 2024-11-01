@@ -1,0 +1,6 @@
+{
+    "name": "nektobit/include",
+    "require": {
+        "donatj/phpuseragentparser": "^0.7.0"
+    }
+}

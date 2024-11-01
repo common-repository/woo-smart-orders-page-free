@@ -1,0 +1,35 @@
+/**
+*   Dynamicaly created file that contains styles of WCSOP order statuses for WC orders page.
+*/
+
+.widefat .column-order_status mark.new-status::after,.widefat .column-order_status mark.homy::after,.widefat .column-order_status mark.worldwide::after {
+font-family: WooCommerce;
+speak: none;
+font-weight: 400;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+text-indent: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+
+.widefat .column-order_status mark.new-status,.widefat .column-order_status mark.homy,.widefat .column-order_status mark.worldwide {
+top: -16px;
+}
+
+td.order_status.column-order_status div.dashicons-admin-home::before {border-radius: 30px;padding: 2px 2px 2px 3px;font-size: 13px;border: 1px solid #19aa25;color: #19aa25;background: #fff;
+}
+
+td.order_status.column-order_status div.dashicons-admin-home::before {border-radius: 30px;padding: 2px 2px 2px 3px;font-size: 13px;border: 1px solid #19aa25;color: #19aa25;background: #fff;
+}
+
+td.order_status.column-order_status div.dashicons-admin-site::before {border-radius: 30px;padding: 2px 2px 2px 3px;font-size: 13px;background: #205fdb;color: #fff;
+}
+
